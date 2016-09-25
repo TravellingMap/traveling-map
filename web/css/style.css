@@ -60,6 +60,24 @@ a:focus, a:hover {
 
 
 
+	#popupBoxOnePosition{
+				top: 0; left: 0; position: fixed; width: 100%; height: 120%;
+				background-color: rgba(0,0,0,0.7); display: none;
+			}
+			#popupBoxTwoPosition{
+				top: 0; left: 0; position: fixed; width: 100%; height: 120%;
+				background-color: rgba(0,0,0,0.7); display: none;
+			}#popupBoxThreePosition{
+				top: 0; left: 0; position: fixed; width: 100%; height: 120%;
+				background-color: rgba(0,0,0,0.7); display: none;
+			}
+			.popupBoxWrapper{
+				width: 550px; margin: 50px auto; text-align: left;
+			}
+			.popupBoxContent{
+				background-color: #FFF; padding: 15px;
+			}
+
 /*-- Fonts --*/
 
 @font-face{
@@ -565,6 +583,166 @@ ul.social-icons li a:hover {
 	background: url("../images/to-top.png") no-repeat 0px 0px;
 }
 /*-- //Go-To-Top-Button --*/
+/*--signin-form--*/
+.w3 {
+    	font-family: century gothic;
 
+    float: left;
+    width: 100%;
+    margin-right: 4%;
+}
+.agile {
+    font-family: century gothic;
+    float: right;
+    width: 100%;
+}
+.signin-form {
+    background: url(../images/banner1.jpg)no-repeat 0px 0px;
+    background-size: cover;
+    padding: 2em 2em;
+	text-align: center;
+}
+.signin-form h3 {
+    font-size: 2em;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 1.5em;
+}
+.signin-form h3 span {
+    color: #67e1ff;
+}
+.signin-form img {
+    border-radius: 50%;
+}
+.login-form {
+    margin: 1em 0 2.5em;
+}
+.signin-form input[type="text"], .signin-form input[type="password"] {
+    width: 92%;
+    padding: 1em 1em 1em 1em;
+    font-size: 0.8em;
+    margin: 1em 0;
+    outline: none;
+    color: #FFF;
+    border: none;
+    border-bottom: 2px solid #fff;
+	letter-spacing: 1px;
+	text-align:center;
+}
+.signin-form input[type="text"] {
+    background: none;
+    display: block;
+}
+.signin-form input[type="password"] {
+     background: none;
+    display: block;
+}
+::-webkit-input-placeholder{
+	color:#fff !important;
+}
+.signin-form input[type="submit"] {
+    outline: none;
+    padding: 0.9em 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 1em;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background: #0b4379;
+    box-shadow: 0px 2px 1px rgba(28, 28, 29, 0.42);
+	border-radius: 22px;
+	
+}
+.signin-form input[type="submit"]:hover {
+    color: #fff;
+    background: #002242;
+    transition: .5s all;
+	-webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    -ms-transition: .5s all;
+}
+.signin-form p a {
+    font-size: 0.875em;
+    color: #fff;
+    letter-spacing: 1px;
+}
+/*--//signin-form--*/
+.header-social {
+    text-align: center;
+    margin-bottom: 2em;
+}
+.tp {
+    margin: 3.7em 0 0;
+}
+h5 {
+    border-left: 1px dotted #7467b9;
+    padding: 0.5em;
+}
+.header-social a.face{
+  background:url(../images/fac.png)no-repeat 12px 9px #3B62A3;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 2em;
+  width: 30%;
+  text-align: left;
+  margin-right: 0%;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  display: inline-block;
+  float:left;
+  border-radius: 14px 0px 0px 14px;
+}
+.header-social a.face:hover{
+	 background:url(../images/fac.png)no-repeat 12px 9px #0E387C;
+	 transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}
+/*-- w3layouts --*/
+.header-social a.goog {
+  background:url(../images/google.png)no-repeat 12px 9px #D64639;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 2.5em;
+  width: 24%;
+  text-align: left;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  float:left;
+  border-radius: 0px 14px 14px 0px;
+}
+.header-social a.goog:hover {
+  background: url(../images/google.png)no-repeat 12px 9px #ff4b3b;
+   transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}
+.header-social h4 {
+  font-size: 17px;
+  color: #6A67CE;
+  text-align: center;
+  margin: 20px 0px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.header-social h4 a{
+	color:#6A67CE;
+}
+.header-social h4 a:hover{
+	color:#FFB900;
+}
 
 
