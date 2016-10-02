@@ -105,8 +105,14 @@ left: 45%;}
     background-image:url(02.jpg); /* Цвет фона */
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1500px) {
      .map { padding-left: 10%; }
+   }
+
+@media screen and (max-width: 1350px) {
+     .map {
+          padding: 0,25%;
+         padding-left: 2%; }
    }
 
 #ukraine {
