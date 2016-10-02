@@ -99,11 +99,16 @@ left: 45%;}
 .map {
 	 width: 100%; /* Ширина элемента в пикселах */
         height:900px;
-    padding: 10px; /* Поля вокруг текста */
-     padding-left: 400px;
+    padding: 1%; /* Поля вокруг текста */
+     padding-left: 20%;
     margin: auto; /* Выравниваем по центру */
     background-image:url(02.jpg); /* Цвет фона */
 }
+
+@media screen and (max-width: 1400px) {
+     .map { padding-left: 10%; }
+   }
+
 #ukraine {
 width: 1200px	;
     height: 800px;
