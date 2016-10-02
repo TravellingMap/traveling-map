@@ -97,12 +97,18 @@ left: 45%;}
 /*-- Index-Page-Styling --*/
 
 .map {
-	position: relative;
-	padding: 0;
-	background-color: #000;
+	 width: 100%; /* Ширина элемента в пикселах */
+        height:900px;
+    padding: 10px; /* Поля вокруг текста */
+     padding-left: 400px;
+    margin: auto; /* Выравниваем по центру */
+    background-image:url(02.jpg); /* Цвет фона */
 }
-
-/*-- Slider --*/
+#ukraine {
+width: 1200px	;
+    height: 800px;
+    
+}
 
 .slider {
 	position: relative;
