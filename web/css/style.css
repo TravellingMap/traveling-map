@@ -483,12 +483,12 @@ ul.callbacks_tabs {
 }
 
 .slider3 .callbacks_nav {
-	left: -40%;
+	left: -10%;
 	top: -110px;
 }
 
 .slider3 .callbacks_nav.next {
-	right: -135%;
+	right: -100%;
 	top: -126px;
 }
 
