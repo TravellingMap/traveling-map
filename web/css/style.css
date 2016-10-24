@@ -407,6 +407,12 @@ ul.callbacks_tabs {
 .dr-icon-user:before {
 	content: "\e001";
 }
+.dr-icon-out:before {
+	content: "\e005";
+}
+.dr-icon-setting:before {
+	content: "\e004";
+}
 
 .dr-icon-menu:before {
 	content: "\e007";
@@ -644,7 +650,7 @@ ul.social-icons li a:hover {
     display: block;
 }
 ::-webkit-input-placeholder{
-	color:#fff !important;
+	color:black!important;
 }
 .signin-form input[type="submit"] {
     outline: none;
@@ -772,4 +778,146 @@ h5 {
   .container {
     width: 1170px;
   }
+}
+.glyphicon-heart-empty:before {
+  content: "\e143";
+}
+
+.col-md-4 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 992px) {
+   .col-md-4{
+    float: left;
+  }
+  
+  .col-md-4 {
+    width: 33.33333333%;
+  }
+    
+}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.glyphicon-map-marker:before {
+  content: "\e062";
+}
+.glyphicon-envelope:before {
+  content: "\2709";
+}
+
+
+
+
+
+.crowe {
+    width:23%;
+    position: absolute;
+    z-index: 1;
+    right: 0%;
+    top: 0%;
+    height: 850px;
+
+}
+.user {
+
+    background: #fff;
+    padding: 1em;
+}
+.user1 {
+    
+    float: left;
+    width: 30%;
+    margin-right: 2%;
+}
+.user2 ul li {
+    
+    list-style: none;
+	margin: .5em 0;
+    font-size: .96em;
+    color: #999;
+}
+.user2 ul li a {
+    color: #999;
+    text-decoration: none;
+}
+.user2 h4 {
+    font-size: 1.3em;
+    text-transform: capitalize;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-weight: 600;
+}
+.user2 {
+    
+    float: right;
+    width: 66%;
+}
+span.glyphicon.glyphicon-map-marker,span.glyphicon.glyphicon-envelope,span.glyphicon.glyphicon-heart-empty {
+    font-size: .8em;
+    background: #222;
+    color: #fff;
+    padding: .6em .6em;
+    border-radius: 22px;
+	
+}
+.flowers {
+    text-align: center;
+	background: #222;
+    height: 725px;
+}
+.flower-grid {
+    padding: 1.5em 0;
+}
+.flower-grid h5 {
+    font-size: 1.5em;
+    color: #fff;
+}
+.flower-grid p {
+    font-size: .95em;
+    color: #ddd;
+    text-transform: capitalize;
+    margin-top: .5em;
+}
+.flower-grid:hover {
+    background: #6CAB36;
+}
+.wrap1 {float:left; width:100%; min-height:100%; height:850px; background-image: url(../images/slide-1.jpg)}
+
+.main {
+    width: 100%;
+    margin: 4px auto;
+    background: rgba(0, 0, 0, 0.45);
+    padding: 30px 30px;
+}
+
+.avatar{
+    margin-left: 35%;
+    margin-bottom: 2%;
+    width: 20%;
+    height: 20%;
+    
 }
