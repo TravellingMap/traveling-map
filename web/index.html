@@ -142,18 +142,19 @@
 				<div class="w3">
                     
 			<div class="signin-form profile">
-                <a  href="javascript:void(0)" onclick="toggle_visibility('popupBoxOnePosition');"><img class="close_image" src="images/close.png" alt="закрыть"></a>
+                <a  href="javascript:void(0)" onclick="toggle_visibility('popupBoxOnePosition');" id="btnCloseAuthorization"><img class="close_image" src="images/close.png" alt="закрыть"></a>
                     
 				<h3>Вход</h3>
 				
 				<div class="login-form">
-					<form action="#" method="post">
+					<form id="authorization" action="authorization.php" method="post">
 						<input type="text" name="email" placeholder="E-mail" required="">
 						<input type="password" name="password" placeholder="Пароль" required="">
 						<div class="tp">
-							<input type="submit" value="ВОЙТИ">
+							<input type="submit" value="ВОЙТИ" id="submitv">
 						</div>
 					</form>
+                    <div id="ackv"></div>
 				</div>
 				<div class="header-social wthree">
 							<a href="#" class="face"><h5>Facebook</h5></a>
@@ -180,7 +181,7 @@
 						<input type="text" name="email" placeholder="E-mail" required="">
 						<input type="text" name="login" placeholder="Логин" required="">
 						<input type="password" name="password" placeholder="Пароль" required="">
-						<input type="password" name="password1" placeholder="Повторите пароль" required="">
+						<input type="password" name="r_password" placeholder="Повторите пароль" required="">
 						<input type="submit" value="Зарегистрироваться" id="submit">
 					</form>
 <div id="ack"></div>
@@ -256,6 +257,7 @@
 
 		<!-- СКРИПТ ДЛЯ МЕНЮ -->
         <script type="text/javascript" src="js/register_form.js"></script>
+        <script type="text/javascript" src="js/authorization_form.js"></script>
 			<script src="js/ytmenu.js"></script>
 		<!-- //СКРИПТ ДЛЯ МЕНЮ -->
 </body>
