@@ -25,7 +25,14 @@ include ("db.php");
     echo "Извините, введённый вами логин уже зарегистрирован. Введите другой логин.";
         exit();
     }
+$result = mysql_query("SELECT id FROM users WHERE email='$email'",$conn);
+    $myrow = mysql_fetch_array($result);
+if (!empty($myrow['id'])) {
+    echo "Извините, введённый вами email уже зарегистрирован. Введите другой email.";
+        exit();
+    }
 if ($password == $r_password){
+    $password=md5($password);
     $sql = "INSERT INTO users (email,login,password) VALUES('$email','$login','$password')";   
    }
     else {
@@ -33,8 +40,9 @@ if ($password == $r_password){
      exit();
     }
 
-if( MYSQL_QUERY($sql) )
-                                   echo "Вы успешно зарегистрированы!";
+if( MYSQL_QUERY($sql) ){
+                                   echo "ok";
+                                    }
 else
                                    echo "Ошибка! Вы не зарегистрированы.";
                                 
