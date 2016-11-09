@@ -6,6 +6,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="keywords" content="">
 		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link rel="stylesheet" href="css/j-forms.css">
 
 	<link rel="stylesheet" href="css/bootstrap.min.css" 	type="text/css" media="all">
     <link rel="stylesheet" href="css/style.css" 			type="text/css" media="all">
@@ -32,6 +33,7 @@
     </head>
 
 <body>
+    
 	<div class="header" id="home">
 		<div class="slider-info">
 			<div class="logo">
@@ -42,20 +44,56 @@
 					<div class="dr-trigger"><span class="dr-icon dr-icon-menu"></span></div>
 					<ul>
                     
-						<li><a class="scroll dr-icon dr-icon-user" href="javascript:void(0)" onclick="toggle_visibility('popupBoxOnePosition');">ВОЙТИ</a></li>
-						<li><a class="scroll dr-icon dr-icon-camera" href="javascript:void(0)" onclick="toggle_visibility('popupBoxTwoPosition');">РЕГИСТРАЦИЯ</a></li>
+						<li><a class="scroll dr-icon dr-icon-setting" href="javascript:void(0)" onclick="toggle_visibility('popupBoxOnePosition');">ПРОФИЛЬ</a></li>
+						<li><a class="scroll dr-icon dr-icon-out" href="javascript:void(0)" onclick="toggle_visibility('popupBoxTwoPosition');">ВЫЙТИ</a></li>
 						<li><a class="scroll dr-icon dr-icon-bullhorn" href="#pricing">ПРО СЕРВИС</a></li>
 					</ul>
 				</nav>
 			</div>
 		</div>
 
-       <div class="wrap">
+        <div class="wrap1">
+							<div class="crowe">
+								<div class="user">
+									<div class="user1">
+									<img src="images/user.png" class="img-responsive" alt="">
+									</div>
+									<div class="user2">
+										<h4>АРТЕМ ЛАШКО</h4>
+									<ul>
+										<li><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> КИЕВ, УКРАИНА</li>
+										<li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:example@mail.com">example@mail.com</a> </li>
+										<li><span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span>20 лет</li>
+									</ul>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+									<div class="flowers">
+										<div class="col-md-4 flower-grid">
+											<h5>10</h5>
+											<p>ГОРОДОВ</p>
+										</div>
+										<div class="col-md-4 flower-grid">
+											<h5>947</h5>
+											<p>ОТМЕЧЕНЫХ МЕСТ</p>
+										</div>
+										<div class="col-md-4 flower-grid">
+											<h5>37</h5>
+											<p>ОСТАВЛЕНЫХ ОТЗЫВАВ</p>
+										</div>
+										<div class="clearfix"></div>
+									</div>
+								
+			
+
+				
+                                </div>
+
 <div class="wrapper">
   <div class="map-tabs">
-    
+   
     <div id="tabs-1" class="open-tabs">
-       <div class="map-ukraine" data-href="/cities/city_id"> 
+      <div class="map-ukraine" data-href="/cities/city_id"> 
         <script src="js/map_data.js"></script>
         <div class="popup-cities">
           <div class="popup-cities-top">&nbsp;</div>
@@ -133,38 +171,101 @@
         
         </div>
 		<div class="clearfix"></div>
-	</div> 
+	</div>
     
     
     
     <div id="popupBoxOnePosition">
 			<div class="popupBoxWrapper">
-				<div class="w3">
-                    
-			<div class="signin-form profile">
-                <a  href="javascript:void(0)" onclick="toggle_visibility('popupBoxOnePosition');" id="btnCloseAuthorization"><img class="close_image" src="images/close.png" alt="закрыть"></a>
-                    
-				<h3>Вход</h3>
-				
-				<div class="login-form">
-					<form id="authorization" action="authorization.php" method="post">
-						<input type="text" name="email" placeholder="E-mail" required="">
-						<input type="password" name="password" placeholder="Пароль" required="">
-						<div class="tp">
-							<input type="submit" value="ВОЙТИ" id="submitv">
+						<div class="main w3l">
+			<div class="im-g">
+				<img class="avatar" src="images/user.png" alt="">
+			</div>
+			<form class="contact-forms wthree">
+					<div class="first-line agileits">
+						<div class="span6 main-row">
+							<div class="input">
+								
+								<input type="text" id="first_name" name="first_name" placeholder="ИМЯ" required="">
+							</div>
 						</div>
-					</form>
-                    <div id="ackv"></div>
+						<div class="span6 main-row">
+							<div class="input">
+								
+								<input type="text" id="last_name" name="last_name" placeholder="ФАМИЛИЯ" required="">
+								
+							</div>
+						</div>
+					</div>
+					<!-- end name -->
+
+					<!-- start email phone -->
+					<div class="first-line agileits">
+						<div class="span6 main-row">
+							<div class="input">
+								
+								<input type="email" placeholder="Email" id="email" name="email" required="">
+							</div>
+						</div>
+						<div class="span6 main-row">
+							<div class="input">
+								
+								<input type="text" placeholder="Phone" id="phone" name="ТЕЛЕФОН" required="">
+							</div>
+						</div>
+					</div>
+				<div class="main-row">
+						<label class="input select">
+							<select name="position">
+								<option value="none" selected disabled="">ПОЛ</option>
+								<option value="male">МУЖЧИНА</option>
+								<option value="female"> ЖЕНЩИНА</option>
+							</select>
+							<i></i>
+						</label>
+					</div>
+
+					
+					<div class="first-line agileits">
+						<div class="span8 main-row">
+							<div class="input">
+								
+								<input type="text" id="city" placeholder="ГОРОД" name="city" required="">
+							</div>
+						</div>
+						
+					</div>
+					<!-- end city post code -->
+
+									
+
+					<!-- start message -->
+					<div class="main-row">
+						<div class="input">
+							<textarea placeholder="О СЕБЕ" spellcheck="false" name="message"></textarea>
+								<span class="tooltip tooltip-right-top">Key Skills</span>
+						</div>
+					</div>
+					<!-- end message -->
+
+					<!-- start files -->
+					
+						
+						
+					
+					<!-- end files -->
+
+			
+				<!-- end /.content -->
+
+				<div class="footer">
+					<button type="submit" class="primary-btn">СОХРАНИТЬ</button>
+					                <a  href="javascript:void(0)" onclick="toggle_visibility('popupBoxOnePosition');"><button type="reset" class="secondary-btn">ОТМЕНА</button></a>
 				</div>
-				<div class="header-social wthree">
-							<a href="#" class="face"><h5>Facebook</h5></a>
-							<a href="#" class="goog"><h5>Google+</h5></a>
-							<div class="clear"></div>
-						</div>
-				<p><a href="javascript:void(0)" onclick="toggle_visibility('popupBoxTwoPosition');"> Регистрация</a></p>
-			</div>
-		
-			</div>
+				<!-- end /.footer -->
+
+			</form>
+		</div>
 				</div>
 			</div>
 		
@@ -173,18 +274,16 @@
 			<div class="popupBoxWrapper">
 					<div class="agile">
 			<div class="signin-form profile">
-                <a  href="javascript:void(0)" onclick="toggle_visibility('popupBoxTwoPosition');" id="btnCloseRegister"><img class="close_image" src="images/close.png" alt="закрыть"></a>
-				<h3>Регистрация</h3>
+                <a  href="javascript:void(0)" onclick="toggle_visibility('popupBoxTwoPosition');"><img class="close_image" src="images/close.png" alt="закрыть"></a>
+				<h3>НАМ ОЧЕНЬ ЖАЛЬ, ЧТО ВЫ НАС ПОКИДАЕТЕ</h3>
 				
 				<div class="login-form">
-					<form id="register" action="register.php" method="post">
-						<input type="text" name="email" placeholder="E-mail" required="">
-						<input type="text" name="login" placeholder="Логин" required="">
-						<input type="password" name="password" placeholder="Пароль" required="">
-						<input type="password" name="r_password" placeholder="Повторите пароль" required="">
-						<input type="submit" value="Зарегистрироваться" id="submit">
+					<form action="#" method="post">
+						
+						<input type="submit" value="ВЫЙТИ">
+                        <input type="submit" value="ОТМЕНА">
+
 					</form>
-<div id="ack"></div>
 				</div>
 				
 			</div>
@@ -196,39 +295,7 @@
 	
     
 
-<!-- //ОТЗЫВЫ -->
-	<div class="follow">
-<div class="container">
 
-
-			<div class="slider3">
-				<ul class="rslides" id="slider3">
-					<li>
-						<img src="images/team-1.png" alt="Комментарий">
-						<p>Очень удобный сервис.Делает жизнь ярче!</p>
-					</li>
-					<li>
-						<img src="images/team-2.png" alt="Комментарий">
-						<p>Спасибо, что создали TRAVEL MAP!</p>
-					</li>
-				</ul>
-			</div>			
-		</div>
-	</div> 
-	<!-- //ОТЗЫВЫ -->
-
-	<!-- Social -->
-	<div class="social">
-		<p>ПОДЕЛИТЬСЯ</p>
-		<!-- ПОДЕЛИТЬСЯ -->
-		<ul class="social-icons">
-			<li><a href="#" class="facebook" title="Go to Our Facebook Page"></a></li>
-			<li><a href="#" class="twitter" title="Go to Our Twitter Account"></a></li>
-			<li><a href="#" class="googleplus" title="Go to Our Google Plus Account"></a></li>
-			<li><a href="#" class="instagram" title="Go to Our Instagram Account"></a></li>
-			<li><a href="#" class="youtube" title="Go to Our Youtube Channel"></a></li>
-		</ul>
-		<!-- //ПОДЕЛИТЬСЯ -->
 
 	</div>
 	<!-- //Social -->
@@ -252,13 +319,12 @@
 						pager: true,
 					});
 				});
-			</script> 
+			</script>
 		<!-- //СЛАЙДЕР ОТЗЫВОВ -->
 
 		<!-- СКРИПТ ДЛЯ МЕНЮ -->
-        <script type="text/javascript" src="js/register_form.js"></script>
-        <script type="text/javascript" src="js/authorization_form.js"></script>
 			<script src="js/ytmenu.js"></script>
 		<!-- //СКРИПТ ДЛЯ МЕНЮ -->
 </body>
 </html>
+          
