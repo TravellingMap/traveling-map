@@ -21,7 +21,18 @@
  
     $result = mysql_query("SELECT * FROM users WHERE email ='$email'",$conn); //извлекаем из базы все данные о пользователе с введенным логином
     $myrow = mysql_fetch_array($result);
-    if (empty($myrow['password']))
+
+preg_match('/^([\w\.]{3,})@([\w\.]{1,}\.[\w]{1,})$/', $email, $matchemail);
+if (!($matchemail)){
+echo "Вы ввели не email. Вы уверены что вы регистрировались на нашем сайте?";
+    exit();}
+
+preg_match('/^[a-z0-9_-]{4,16}$/',$password, $matchpass);
+if (!($matchpass)){
+echo "Пароль может содержать латинские буквы, цифры, дефисы, подчеркивания и быть длинной от 4 до 16 символов. Вы уверены что вы регистрировались на нашем сайте?";
+    exit();}    
+
+if (empty($myrow['password']))
     {
     //если пользователя с введенным логином не существует
     echo "Извините, введённый вами e-mail или пароль неверный.";
