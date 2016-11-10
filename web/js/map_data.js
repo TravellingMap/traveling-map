@@ -1,4 +1,55 @@
-var mapData = {"Nikolaev": [{"title": "\u042e\u0436\u043d\u043e\u0443\u043a\u0440\u0430\u0438\u043d\u0441\u043a", "id": "YUjnoukrainsk", "oblast": {"id": "Nikolaev", "title": "\u041d\u0438\u043a\u043e\u043b\u0430\u0435\u0432"}}, {"title": "\u041f\u0435\u0440\u0432\u043e\u043c\u0430\u0439\u0441\u043a", "id": "Pervomaysk", "oblast": {"id": "Nikolaev", "title": "\u041d\u0438\u043a\u043e\u043b\u0430\u0435\u0432"}}, {"title": "\u041d\u0438\u043a\u043e\u043b\u0430\u0435\u0432", "id": "Nikolaev", "oblast": {"id": "Nikolaev", "title": "\u041d\u0438\u043a\u043e\u043b\u0430\u0435\u0432"}}], "Cherkassy": [{"title": "\u0427\u0435\u0440\u043a\u0430\u0441\u0441\u044b", "id": "Cherkassy", "oblast": {"id": "Cherkassy", "title": "\u0427\u0435\u0440\u043a\u0430\u0441\u0441\u044b"}}, {"title": "\u0423\u043c\u0430\u043d\u044c", "id": "Uman", "oblast": {"id": "Cherkassy", "title": "\u0427\u0435\u0440\u043a\u0430\u0441\u0441\u044b"}}], "Chernigov": [{"title": "\u041d\u0435\u0436\u0438\u043d", "id": "Nejin", "oblast": {"id": "Chernigov", "title": "\u0427\u0435\u0440\u043d\u0438\u0433\u043e\u0432"}}, {"title": "\u041f\u0440\u0438\u043b\u0443\u043a\u0438", "id": "Priluki", "oblast": {"id": "Chernigov", "title": "\u0427\u0435\u0440\u043d\u0438\u0433\u043e\u0432"}}, {"title": "\u0427\u0435\u0440\u043d\u0438\u0433\u043e\u0432", "id": "Chernigov", "oblast": {"id": "Chernigov", "title": "\u0427\u0435\u0440\u043d\u0438\u0433\u043e\u0432"}}], "Kirovograd": [{"title": "\u041a\u0438\u0440\u043e\u0432\u043e\u0433\u0440\u0430\u0434", "id": "Kirovograd", "oblast": {"id": "Kirovograd", "title": "\u041a\u0438\u0440\u043e\u0432\u043e\u0433\u0440\u0430\u0434"}}], "Lutsk": [{"title": "\u041b\u0443\u0446\u043a", "id": "Lutsk", "oblast": {"id": "Lutsk", "title": "\u041b\u0443\u0446\u043a"}}], "Simferopol": [{"title": "\u0427\u0435\u0440\u043d\u043e\u043c\u043e\u0440\u0441\u043a\u043e\u0435", "id": "Chernomorskoe", "oblast": {"id": "Simferopol", "title": "\u0421\u0438\u043c\u0444\u0435\u0440\u043e\u043f\u043e\u043b\u044c"}}, {"title": "\u0410\u043b\u0443\u043f\u043a\u0430", "id": "Alupka", "oblast": {"id": "Simferopol", "title": "\u0421\u0438\u043c\u0444\u0435\u0440\u043e\u043f\u043e\u043b\u044c"}}, {"title": "\u0410\u043b\u0443\u0448\u0442\u0430", "id": "Alushta", "oblast": {"id": "Simferopol", "title": "\u0421\u0438\u043c\u0444\u0435\u0440\u043e\u043f\u043e\u043b\u044c"}}, {"title": "\u0413\u0443\u0440\u0437\u0443\u0444", "id": "Gurzuf", "oblast": {"id": "Simferopol", "title": "\u0421\u0438\u043c\u0444\u0435\u0440\u043e\u043f\u043e\u043b\u044c"}}, {"title": "\u041a\u0435\u0440\u0447\u044c", "id": "Kerch", "oblast": {"id": "Simferopol", "title": "\u0421\u0438\u043c\u0444\u0435\u0440\u043e\u043f\u043e\u043b\u044c"}}, {"title": "\u041a\u043e\u043a\u0442\u0435\u0431\u0435\u043b\u044c", "id": "Koktebel", "oblast": {"id": "Simferopol", "title": "\u0421\u0438\u043c\u0444\u0435\u0440\u043e\u043f\u043e\u043b\u044c"}}, {"title": "\u041a\u043e\u0440\u0435\u0438\u0437", "id": "Koreiz", "oblast": {"id": "Simferopol", "title": "\u0421\u0438\u043c\u0444\u0435\u0440\u043e\u043f\u043e\u043b\u044c"}}, {"title": "\u0415\u0432\u043f\u0430\u0442\u043e\u0440\u0438\u044f", "id": "Evpatoriya", "oblast": {"id": "Simferopol", "title": "\u0421\u0438\u043c\u0444\u0435\u0440\u043e\u043f\u043e\u043b\u044c"}}, {"title": "\u0424\u0435\u043e\u0434\u043e\u0441\u0438\u044f", "id": "Feodosiya", "oblast": {"id": "Simferopol", "title": "\u0421\u0438\u043c\u0444\u0435\u0440\u043e\u043f\u043e\u043b\u044c"}}, {"title": "\u0424\u043e\u0440\u043e\u0441", "id": "Foros", "oblast": {"id": "Simferopol", "title": "\u0421\u0438\u043c\u0444\u0435\u0440\u043e\u043f\u043e\u043b\u044c"}}, {"title": "\u0413\u0430\u0441\u043f\u0440\u0430", "id": "Gaspra", "oblast": {"id": "Simferopol", "title": "\u0421\u0438\u043c\u0444\u0435\u0440\u043e\u043f\u043e\u043b\u044c"}}, {"title": "\u041f\u0430\u0440\u0442\u0435\u043d\u0438\u0442", "id": "Partenit", "oblast": {"id": "Simferopol", "title": "\u0421\u0438\u043c\u0444\u0435\u0440\u043e\u043f\u043e\u043b\u044c"}}, {"title": "\u0421\u0430\u043a\u0438", "id": "Saki", "oblast": {"id": "Simferopol", "title": "\u0421\u0438\u043c\u0444\u0435\u0440\u043e\u043f\u043e\u043b\u044c"}}, {"title": "\u0429\u0451\u043b\u043a\u0438\u043d\u043e", "id": "Shchelkino", "oblast": {"id": "Simferopol", "title": "\u0421\u0438\u043c\u0444\u0435\u0440\u043e\u043f\u043e\u043b\u044c"}}, {"title": "\u0421\u0438\u043c\u0435\u0438\u0437", "id": "Simeiz", "oblast": {"id": "Simferopol", "title": "\u0421\u0438\u043c\u0444\u0435\u0440\u043e\u043f\u043e\u043b\u044c"}}, {"title": "\u0421\u0443\u0434\u0430\u043a", "id": "Sudak", "oblast": {"id": "Simferopol", "title": "\u0421\u0438\u043c\u0444\u0435\u0440\u043e\u043f\u043e\u043b\u044c"}}, {"title": "\u042f\u043b\u0442\u0430", "id": "YAlta", "oblast": {"id": "Simferopol", "title": "\u0421\u0438\u043c\u0444\u0435\u0440\u043e\u043f\u043e\u043b\u044c"}}, {"title": "\u0421\u0438\u043c\u0444\u0435\u0440\u043e\u043f\u043e\u043b\u044c", "id": "Simferopol", "oblast": {"id": "Simferopol", "title": "\u0421\u0438\u043c\u0444\u0435\u0440\u043e\u043f\u043e\u043b\u044c"}}, {"title": "\u0421\u0435\u0432\u0430\u0441\u0442\u043e\u043f\u043e\u043b\u044c", "id": "Sevastopol", "oblast": {"id": "Simferopol", "title": "\u0421\u0438\u043c\u0444\u0435\u0440\u043e\u043f\u043e\u043b\u044c"}}], "Kiev": [{"title": "\u0418\u0440\u043f\u0435\u043d\u044c", "id": "Irpen", "oblast": {"id": "Kiev", "title": "\u041a\u0438\u0435\u0432"}}, {"title": "\u041a\u0438\u0435\u0432", "id": "Kiev", "oblast": {"id": "Kiev", "title": "\u041a\u0438\u0435\u0432"}}, {"title": "\u0411\u043e\u0440\u0438\u0441\u043f\u043e\u043b\u044c", "id": "Borispol", "oblast": {"id": "Kiev", "title": "\u041a\u0438\u0435\u0432"}}, {"title": "\u0411\u0440\u043e\u0432\u0430\u0440\u044b", "id": "Brovary", "oblast": {"id": "Kiev", "title": "\u041a\u0438\u0435\u0432"}}, {"title": "\u0411\u0443\u0447\u0430", "id": "Bucha", "oblast": {"id": "Kiev", "title": "\u041a\u0438\u0435\u0432"}}, {"title": "\u0411\u0435\u043b\u0430\u044f \u0426\u0435\u0440\u043a\u043e\u0432\u044c", "id": "Belaya TSerkov", "oblast": {"id": "Kiev", "title": "\u041a\u0438\u0435\u0432"}}], "Rovno": [{"title": "\u0420\u043e\u0432\u043d\u043e", "id": "Rovno", "oblast": {"id": "Rovno", "title": "\u0420\u043e\u0432\u043d\u043e"}}], "Kherson": [{"title": "\u0425\u0435\u0440\u0441\u043e\u043d", "id": "Kherson", "oblast": {"id": "Kherson", "title": "\u0425\u0435\u0440\u0441\u043e\u043d"}}, {"title": "\u041d\u043e\u0432\u0430\u044f \u041a\u0430\u0445\u043e\u0432\u043a\u0430", "id": "Novaya Kahovka", "oblast": {"id": "Kherson", "title": "\u0425\u0435\u0440\u0441\u043e\u043d"}}, {"title": "\u0413\u0435\u043d\u0438\u0447\u0435\u0441\u043a", "id": "Genichesk", "oblast": {"id": "Kherson", "title": "\u0425\u0435\u0440\u0441\u043e\u043d"}}, {"title": "\u0421\u043a\u0430\u0434\u043e\u0432\u0441\u043a", "id": "Skadovsk", "oblast": {"id": "Kherson", "title": "\u0425\u0435\u0440\u0441\u043e\u043d"}}], "Lugansk": [{"title": "\u0410\u043b\u0447\u0435\u0432\u0441\u043a", "id": "Alchevsk", "oblast": {"id": "Lugansk", "title": "\u041b\u0443\u0433\u0430\u043d\u0441\u043a"}}, {"title": "\u0421\u0435\u0432\u0435\u0440\u043e\u0434\u043e\u043d\u0435\u0446\u043a", "id": "Severodonetsk", "oblast": {"id": "Lugansk", "title": "\u041b\u0443\u0433\u0430\u043d\u0441\u043a"}}, {"title": "\u041b\u0443\u0433\u0430\u043d\u0441\u043a", "id": "Lugansk", "oblast": {"id": "Lugansk", "title": "\u041b\u0443\u0433\u0430\u043d\u0441\u043a"}}], "Sumy": [{"title": "\u0428\u043e\u0441\u0442\u043a\u0430", "id": "Shostka", "oblast": {"id": "Sumy", "title": "\u0421\u0443\u043c\u044b"}}, {"title": "\u0421\u0443\u043c\u044b", "id": "Sumy", "oblast": {"id": "Sumy", "title": "\u0421\u0443\u043c\u044b"}}], "Ivano-Frankovsk": [{"title": "\u0418\u0432\u0430\u043d\u043e-\u0424\u0440\u0430\u043d\u043a\u043e\u0432\u0441\u043a", "id": "Ivano-Frankovsk", "oblast": {"id": "Ivano-Frankovsk", "title": "\u0418\u0432\u0430\u043d\u043e-\u0424\u0440\u0430\u043d\u043a\u043e\u0432\u0441\u043a"}}, {"title": "\u042f\u0440\u0435\u043c\u0447\u0435", "id": "YAremche", "oblast": {"id": "Ivano-Frankovsk", "title": "\u0418\u0432\u0430\u043d\u043e-\u0424\u0440\u0430\u043d\u043a\u043e\u0432\u0441\u043a"}}], "Poltava": [{"title": "\u041a\u0440\u0435\u043c\u0435\u043d\u0447\u0443\u0433", "id": "Kremenchug", "oblast": {"id": "Poltava", "title": "\u041f\u043e\u043b\u0442\u0430\u0432\u0430"}}, {"title": "\u041c\u0438\u0440\u0433\u043e\u0440\u043e\u0434", "id": "Mirgorod", "oblast": {"id": "Poltava", "title": "\u041f\u043e\u043b\u0442\u0430\u0432\u0430"}}, {"title": "\u041f\u043e\u043b\u0442\u0430\u0432\u0430", "id": "Poltava", "oblast": {"id": "Poltava", "title": "\u041f\u043e\u043b\u0442\u0430\u0432\u0430"}}], "Lvov": [{"title": "\u041c\u043e\u0440\u0448\u0438\u043d", "id": "Morshyn", "oblast": {"id": "Lvov", "title": "\u041b\u044c\u0432\u043e\u0432"}}, {"title": "\u0422\u0440\u0443\u0441\u043a\u0430\u0432\u0435\u0446", "id": "Truskavets", "oblast": {"id": "Lvov", "title": "\u041b\u044c\u0432\u043e\u0432"}}, {"title": "\u041b\u044c\u0432\u043e\u0432", "id": "Lvov", "oblast": {"id": "Lvov", "title": "\u041b\u044c\u0432\u043e\u0432"}}], "Odessa": [{"title": "\u0418\u043b\u044c\u0438\u0447\u0451\u0432\u0441\u043a", "id": "Ilichevsk", "oblast": {"id": "Odessa", "title": "\u041e\u0434\u0435\u0441\u0441\u0430"}}, {"title": "\u0418\u0437\u043c\u0430\u0438\u043b", "id": "Izmail", "oblast": {"id": "Odessa", "title": "\u041e\u0434\u0435\u0441\u0441\u0430"}}, {"title": "\u0417\u0430\u0442\u043e\u043a\u0430", "id": "Zatoka", "oblast": {"id": "Odessa", "title": "\u041e\u0434\u0435\u0441\u0441\u0430"}}, {"title": "\u0411\u0435\u043b\u0433\u043e\u0440\u043e\u0434-\u0414\u043d\u0435\u0441\u0442\u0440\u043e\u0432\u0441\u043a\u0438\u0439", "id": "Bilhorod-Dnistrovskyi", "oblast": {"id": "Odessa", "title": "\u041e\u0434\u0435\u0441\u0441\u0430"}}, {"title": "\u041e\u0434\u0435\u0441\u0441\u0430", "id": "Odessa", "oblast": {"id": "Odessa", "title": "\u041e\u0434\u0435\u0441\u0441\u0430"}}], "null": [{"title": "\u0411\u0430\u043b\u0430\u043a\u043b\u0435\u044f", "id": "Balakliia", "oblast": {"id": null, "title": "None"}}, {"title": "\u041a\u0430\u0445\u043e\u0432\u043a\u0430", "id": "Kakhovka", "oblast": {"id": null, "title": "None"}}, {"title": "\u041a\u0430\u043d\u0435\u0432", "id": "Kaniv", "oblast": {"id": null, "title": "None"}}, {"title": "\u0425\u043c\u0435\u043b\u044c\u043d\u0438\u043a", "id": "Khmelnik", "oblast": {"id": null, "title": "None"}}, {"title": "\u041c\u0438\u0440\u043d\u044b\u0439", "id": "Myrnyi", "oblast": {"id": null, "title": "None"}}, {"title": "\u041d\u043e\u0432\u044b\u0439 \u0441\u0432\u0435\u0442", "id": "Novii svit", "oblast": {"id": null, "title": "None"}}, {"title": "\u042e\u0436\u043d\u043e\u0435", "id": "Yuzhne", "oblast": {"id": null, "title": "None"}}, {"title": "\u041f\u043e\u0447\u0430\u0435\u0432", "id": "Pochayev", "oblast": {"id": null, "title": "None"}}, {"title": "\u041a\u0430\u0440\u043e\u043b\u0438\u043d\u043e-\u0411\u0443\u0433\u0430\u0437", "id": "Karolino-Bugaz", "oblast": {"id": null, "title": "None"}}, {"title": "\u041f\u0440\u0438\u043c\u043e\u0440\u0441\u043a\u0438\u0439", "id": "Primorskyi", "oblast": {"id": null, "title": "None"}}, {"title": "\u0411\u0435\u0440\u0435\u0433\u043e\u0432\u043e\u0435", "id": "Berehove", "oblast": {"id": null, "title": "None"}}, {"title": "\u0420\u0430\u0445\u043e\u0432", "id": "Rakhiv", "oblast": {"id": null, "title": "None"}}, {"title": "\u0428\u0442\u043e\u0440\u043c\u043e\u0432\u043e\u0301\u0435", "id": "Shtormovoye", "oblast": {"id": null, "title": "None"}}, {"title": "\u041c\u043e\u0440\u0441\u043a\u043e\u0435", "id": "Morskoe", "oblast": {"id": null, "title": "None"}}], "Dnepropetrovsk": [{"title": "\u0414\u043d\u0435\u043f\u0440\u043e\u0434\u0437\u0435\u0440\u0436\u0438\u043d\u0441\u043a", "id": "Dneprodzerjinsk", "oblast": {"id": "Dnepropetrovsk", "title": "\u0414\u043d\u0435\u043f\u0440\u043e\u043f\u0435\u0442\u0440\u043e\u0432\u0441\u043a"}}, {"title": "\u041d\u0438\u043a\u043e\u043f\u043e\u043b\u044c", "id": "Nikopol", "oblast": {"id": "Dnepropetrovsk", "title": "\u0414\u043d\u0435\u043f\u0440\u043e\u043f\u0435\u0442\u0440\u043e\u0432\u0441\u043a"}}, {"title": "\u041d\u043e\u0432\u043e\u043c\u043e\u0441\u043a\u043e\u0432\u0441\u043a", "id": "Novomoskovsk", "oblast": {"id": "Dnepropetrovsk", "title": "\u0414\u043d\u0435\u043f\u0440\u043e\u043f\u0435\u0442\u0440\u043e\u0432\u0441\u043a"}}, {"title": "\u041f\u0430\u0432\u043b\u043e\u0433\u0440\u0430\u0434", "id": "Pavlograd", "oblast": {"id": "Dnepropetrovsk", "title": "\u0414\u043d\u0435\u043f\u0440\u043e\u043f\u0435\u0442\u0440\u043e\u0432\u0441\u043a"}}, {"title": "\u041a\u0440\u0438\u0432\u043e\u0439 \u0420\u043e\u0433", "id": "Krivoy_Rog", "oblast": {"id": "Dnepropetrovsk", "title": "\u0414\u043d\u0435\u043f\u0440\u043e\u043f\u0435\u0442\u0440\u043e\u0432\u0441\u043a"}}, {"title": "\u0414\u043d\u0435\u043f\u0440\u043e\u043f\u0435\u0442\u0440\u043e\u0432\u0441\u043a", "id": "Dnepropetrovsk", "oblast": {"id": "Dnepropetrovsk", "title": "\u0414\u043d\u0435\u043f\u0440\u043e\u043f\u0435\u0442\u0440\u043e\u0432\u0441\u043a"}}], "Chernovtsy": [{"title": "\u0427\u0435\u0440\u043d\u043e\u0432\u0446\u044b", "id": "Chernovtsy", "oblast": {"id": "Chernovtsy", "title": "\u0427\u0435\u0440\u043d\u043e\u0432\u0446\u044b"}}], "Vinnitsa": [{"title": "\u0412\u0438\u043d\u043d\u0438\u0446\u0430", "id": "Vinnitsa", "oblast": {"id": "Vinnitsa", "title": "\u0412\u0438\u043d\u043d\u0438\u0446\u0430"}}], "Harkov": [{"title": "\u0425\u0430\u0440\u044c\u043a\u043e\u0432", "id": "Harkov", "oblast": {"id": "Harkov", "title": "\u0425\u0430\u0440\u044c\u043a\u043e\u0432"}}], "Uzhgorod": [{"title": "\u041c\u0443\u043a\u0430\u0447\u0435\u0432\u043e", "id": "Mukachevo", "oblast": {"id": "Uzhgorod", "title": "\u0423\u0436\u0433\u043e\u0440\u043e\u0434"}}, {"title": "\u0423\u0436\u0433\u043e\u0440\u043e\u0434", "id": "Uzhgorod", "oblast": {"id": "Uzhgorod", "title": "\u0423\u0436\u0433\u043e\u0440\u043e\u0434"}}, {"title": "\u0411\u0435\u0440\u0435\u0433\u043e\u0432\u043e", "id": "Beregovo", "oblast": {"id": "Uzhgorod", "title": "\u0423\u0436\u0433\u043e\u0440\u043e\u0434"}}], "Khmelnitskiy": [{"title": "\u041a\u0430\u043c\u0435\u043d\u0435\u0446-\u041f\u043e\u0434\u043e\u043b\u044c\u0441\u043a\u0438\u0439", "id": "Kamenets_Podolskiy", "oblast": {"id": "Khmelnitskiy", "title": "\u0425\u043c\u0435\u043b\u044c\u043d\u0438\u0446\u043a\u0438\u0439"}}, {"title": "\u0425\u043c\u0435\u043b\u044c\u043d\u0438\u0446\u043a\u0438\u0439", "id": "Khmelnitskiy", "oblast": {"id": "Khmelnitskiy", "title": "\u0425\u043c\u0435\u043b\u044c\u043d\u0438\u0446\u043a\u0438\u0439"}}], "Zhitomir": [{"title": "\u041d\u043e\u0432\u043e\u0433\u0440\u0430\u0434-\u0412\u043e\u043b\u044b\u043d\u0441\u043a\u0438\u0439", "id": "Novograd_Volynskiy", "oblast": {"id": "Zhitomir", "title": "\u0416\u0438\u0442\u043e\u043c\u0438\u0440"}}, {"title": "\u0411\u0435\u0440\u0434\u0438\u0447\u0435\u0432", "id": "Berdichev", "oblast": {"id": "Zhitomir", "title": "\u0416\u0438\u0442\u043e\u043c\u0438\u0440"}}, {"title": "\u0416\u0438\u0442\u043e\u043c\u0438\u0440", "id": "Zhitomir", "oblast": {"id": "Zhitomir", "title": "\u0416\u0438\u0442\u043e\u043c\u0438\u0440"}}], "Donetsk": [{"title": "\u0410\u0440\u0442\u0435\u043c\u043e\u0432\u0441\u043a", "id": "Artemovsk", "oblast": {"id": "Donetsk", "title": "\u0414\u043e\u043d\u0435\u0446\u043a"}}, {"title": "\u0413\u043e\u0440\u043b\u043e\u0432\u043a\u0430", "id": "Gorlovka", "oblast": {"id": "Donetsk", "title": "\u0414\u043e\u043d\u0435\u0446\u043a"}}, {"title": "\u041a\u0440\u0430\u043c\u0430\u0442\u043e\u0440\u0441\u043a", "id": "Kramatorsk", "oblast": {"id": "Donetsk", "title": "\u0414\u043e\u043d\u0435\u0446\u043a"}}, {"title": "\u041c\u0430\u043a\u0435\u0435\u0432\u043a\u0430", "id": "Makeevka", "oblast": {"id": "Donetsk", "title": "\u0414\u043e\u043d\u0435\u0446\u043a"}}, {"title": "\u041c\u0430\u0440\u0438\u0443\u043f\u043e\u043b\u044c", "id": "Mariupol", "oblast": {"id": "Donetsk", "title": "\u0414\u043e\u043d\u0435\u0446\u043a"}}, {"title": "\u0415\u043d\u0430\u043a\u0438\u0435\u0432\u043e", "id": "Enakievo", "oblast": {"id": "Donetsk", "title": "\u0414\u043e\u043d\u0435\u0446\u043a"}}, {"title": "\u0421\u043b\u0430\u0432\u044f\u043d\u0441\u043a", "id": "Slavyansk", "oblast": {"id": "Donetsk", "title": "\u0414\u043e\u043d\u0435\u0446\u043a"}}, {"title": "\u0414\u043e\u043d\u0435\u0446\u043a", "id": "Donetsk", "oblast": {"id": "Donetsk", "title": "\u0414\u043e\u043d\u0435\u0446\u043a"}}], "Ternopol": [{"title": "\u0422\u0435\u0440\u043d\u043e\u043f\u043e\u043b\u044c", "id": "Ternopol", "oblast": {"id": "Ternopol", "title": "\u0422\u0435\u0440\u043d\u043e\u043f\u043e\u043b\u044c"}}], "Zaporozhye": [{"title": "\u041c\u0435\u043b\u0438\u0442\u043e\u043f\u043e\u043b\u044c", "id": "Melitopol", "oblast": {"id": "Zaporozhye", "title": "\u0417\u0430\u043f\u043e\u0440\u043e\u0436\u044c\u0435"}}, {"title": "\u0411\u0435\u0440\u0434\u044f\u043d\u0441\u043a", "id": "Berdyansk", "oblast": {"id": "Zaporozhye", "title": "\u0417\u0430\u043f\u043e\u0440\u043e\u0436\u044c\u0435"}}, {"title": "\u042d\u043d\u0435\u0440\u0433\u043e\u0434\u0430\u0440", "id": "Energodar", "oblast": {"id": "Zaporozhye", "title": "\u0417\u0430\u043f\u043e\u0440\u043e\u0436\u044c\u0435"}}, {"title": "\u0417\u0430\u043f\u043e\u0440\u043e\u0436\u044c\u0435", "id": "Zaporozhye", "oblast": {"id": "Zaporozhye", "title": "\u0417\u0430\u043f\u043e\u0440\u043e\u0436\u044c\u0435"}}]};
+var mapData = {
+    
+    "Nikolaev": [{"title": "\u041d\u0438\u043a\u043e\u043b\u0430\u0435\u0432", "id": "Nikolaev", "oblast": {"id": "Nikolaev", "title": "\u041d\u0438\u043a\u043e\u043b\u0430\u0435\u0432"}}],
+    
+    "Cherkassy": [{"title": "\u0427\u0435\u0440\u043a\u0430\u0441\u0441\u044b", "id": "Cherkassy", "oblast": {"id": "Cherkassy", "title": "\u0427\u0435\u0440\u043a\u0430\u0441\u0441\u044b"}}], 
+    
+    "Chernigov": [{"title": "\u0427\u0435\u0440\u043d\u0438\u0433\u043e\u0432", "id": "Chernigov", "oblast": {"id": "Chernigov", "title": "\u0427\u0435\u0440\u043d\u0438\u0433\u043e\u0432"}}], 
+    
+    "Kirovograd": [{"title": "\u041a\u0438\u0440\u043e\u0432\u043e\u0433\u0440\u0430\u0434", "id": "Kirovograd", "oblast": {"id": "Kirovograd", "title": "\u041a\u0438\u0440\u043e\u0432\u043e\u0433\u0440\u0430\u0434"}}], 
+    
+    "Lutsk": [{"title": "\u041b\u0443\u0446\u043a", "id": "Lutsk", "oblast": {"id": "Lutsk", "title": "\u041b\u0443\u0446\u043a"}}], 
+    
+    "Simferopol": [{"title": "\u0421\u0438\u043c\u0444\u0435\u0440\u043e\u043f\u043e\u043b\u044c", "id": "Simferopol", "oblast": {"id": "Simferopol", "title": "\u0421\u0438\u043c\u0444\u0435\u0440\u043e\u043f\u043e\u043b\u044c"}}], 
+    
+    "Kiev": [{"title": "\u041a\u0438\u0435\u0432", "id": "Kiev", "oblast": {"id": "Kiev", "title": "\u041a\u0438\u0435\u0432"}}], 
+    
+    "Rovno": [{"title": "\u0420\u043e\u0432\u043d\u043e", "id": "Rovno", "oblast": {"id": "Rovno", "title": "\u0420\u043e\u0432\u043d\u043e"}}], 
+    
+    "Kherson": [{"title": "\u0425\u0435\u0440\u0441\u043e\u043d", "id": "Kherson", "oblast": {"id": "Kherson", "title": "\u0425\u0435\u0440\u0441\u043e\u043d"}}], 
+    
+    "Lugansk": [{"title": "\u041b\u0443\u0433\u0430\u043d\u0441\u043a", "id": "Lugansk", "oblast": {"id": "Lugansk", "title": "\u041b\u0443\u0433\u0430\u043d\u0441\u043a"}}], 
+    
+    "Sumy": [{"title": "\u0421\u0443\u043c\u044b", "id": "Sumy", "oblast": {"id": "Sumy", "title": "\u0421\u0443\u043c\u044b"}}], 
+    
+    "Ivano-Frankovsk": [{"title": "\u0418\u0432\u0430\u043d\u043e-\u0424\u0440\u0430\u043d\u043a\u043e\u0432\u0441\u043a", "id": "Ivano-Frankovsk", "oblast": {"id": "Ivano-Frankovsk", "title": "\u0418\u0432\u0430\u043d\u043e-\u0424\u0440\u0430\u043d\u043a\u043e\u0432\u0441\u043a"}}], 
+    
+    "Poltava": [{"title": "\u041f\u043e\u043b\u0442\u0430\u0432\u0430", "id": "Poltava", "oblast": {"id": "Poltava", "title": "\u041f\u043e\u043b\u0442\u0430\u0432\u0430"}}], 
+    
+    "Lvov": [{"title": "\u041b\u044c\u0432\u043e\u0432", "id": "Lvov", "oblast": {"id": "Lvov", "title": "\u041b\u044c\u0432\u043e\u0432"}}], 
+    
+    "Odessa": [{"title": "\u041e\u0434\u0435\u0441\u0441\u0430", "id": "Odessa", "oblast": {"id": "Odessa", "title": "\u041e\u0434\u0435\u0441\u0441\u0430"}}],
+    
+    "Dnepropetrovsk": [{"title": "\u0414\u043d\u0435\u043f\u0440\u043e\u043f\u0435\u0442\u0440\u043e\u0432\u0441\u043a", "id": "Dnepropetrovsk", "oblast": {"id": "Dnepropetrovsk", "title": "\u0414\u043d\u0435\u043f\u0440\u043e\u043f\u0435\u0442\u0440\u043e\u0432\u0441\u043a"}}],
+    
+    "Chernovtsy": [{"title": "\u0427\u0435\u0440\u043d\u043e\u0432\u0446\u044b", "id": "Chernovtsy", "oblast": {"id": "Chernovtsy", "title": "\u0427\u0435\u0440\u043d\u043e\u0432\u0446\u044b"}}], 
+    
+    "Vinnitsa": [{"title": "\u0412\u0438\u043d\u043d\u0438\u0446\u0430", "id": "Vinnitsa", "oblast": {"id": "Vinnitsa", "title": "\u0412\u0438\u043d\u043d\u0438\u0446\u0430"}}], 
+    
+    "Harkov": [{"title": "\u0425\u0430\u0440\u044c\u043a\u043e\u0432", "id": "Harkov", "oblast": {"id": "Harkov", "title": "\u0425\u0430\u0440\u044c\u043a\u043e\u0432"}}], 
+    
+    "Uzhgorod": [{"title": "\u0423\u0436\u0433\u043e\u0440\u043e\u0434", "id": "Uzhgorod", "oblast": {"id": "Uzhgorod", "title": "\u0423\u0436\u0433\u043e\u0440\u043e\u0434"}}], 
+    
+    "Khmelnitskiy": [{"title": "\u0425\u043c\u0435\u043b\u044c\u043d\u0438\u0446\u043a\u0438\u0439", "id": "Khmelnitskiy", "oblast": {"id": "Khmelnitskiy", "title": "\u0425\u043c\u0435\u043b\u044c\u043d\u0438\u0446\u043a\u0438\u0439"}}],
+    
+    "Zhitomir": [{"title": "\u0416\u0438\u0442\u043e\u043c\u0438\u0440", "id": "Zhitomir", "oblast": {"id": "Zhitomir", "title": "\u0416\u0438\u0442\u043e\u043c\u0438\u0440"}}], 
+    
+    "Donetsk": [{"title": "\u0414\u043e\u043d\u0435\u0446\u043a", "id": "Donetsk", "oblast": {"id": "Donetsk", "title": "\u0414\u043e\u043d\u0435\u0446\u043a"}}], 
+    
+    "Ternopol": [{"title": "\u0422\u0435\u0440\u043d\u043e\u043f\u043e\u043b\u044c", "id": "Ternopol", "oblast": {"id": "Ternopol", "title": "\u0422\u0435\u0440\u043d\u043e\u043f\u043e\u043b\u044c"}}],
+    
+    "Zaporozhye": [{"title": "\u0417\u0430\u043f\u043e\u0440\u043e\u0436\u044c\u0435", "id": "Zaporozhye", "oblast": {"id": "Zaporozhye", "title": "\u0417\u0430\u043f\u043e\u0440\u043e\u0436\u044c\u0435"}}]};
+
 var poligonData = [
 		"34,180,71,143,91,127,101,127,107,116,124,120,122,129,129,131,133,137,144,137,148,140,148,143,155,143,153,151,153,156,160,163,162,167,159,174,148,174,145,177,146,181,143,182,138,190,129,191,128,195,128,197,124,197,122,194,113,197,112,205,109,209,109,214,112,215,113,217,108,219,94,219,90,221,83,220,78,220,76,222,76,224,75,227,69,230,69,246,62,246,58,242,51,242,49,234,41,233,38,220,39,215,32,209,36,199",
 		"147,140,150,140,154,135,152,131,152,124,156,123,160,125,162,117,172,117,176,114,183,120,187,119,187,110,194,102,191,98,198,96,198,91,193,90,196,83,190,73,186,66,181,66,178,68,177,62,179,52,176,48,176,39,181,35,182,32,179,29,179,26,173,26,169,22,162,21,157,25,133,24,127,24,124,33,108,44,107,41,98,38,94,41,93,47,95,55,92,59,93,63,95,70,100,72,104,90,110,95,111,98,103,97,104,101,109,115,124,120,122,129,128,130,133,137,144,137",
@@ -28,81 +79,31 @@ var poligonData = [
 	];
 
 var cityData = [
-	
-		["Lvov", "http://doba.ua/cities/Lvov"],
-	
- 
-		["Lutsk", "http://doba.ua/cities/Lutsk"],
-	
- 
-		["Rovno", "http://doba.ua/cities/Rovno"],
-	
- 
-		["Zhitomir", "http://doba.ua/cities/Zhitomir"],
-	
- 
-		["Ivano-Frankovsk", "http://doba.ua/cities/Ivano-Frankovsk"],
-	
- 
-		["Uzhgorod", "http://doba.ua/cities/Uzhgorod"],
-	
- 
-		["Chernovtsy", "http://doba.ua/cities/Chernovtsy"],
-	
- 
-		["Ternopol", "http://doba.ua/cities/Ternopol"],
-	
- 
-		["Khmelnitskiy", "http://doba.ua/cities/Khmelnitskiy"],
-	
- 
-		["Vinnitsa", "http://doba.ua/cities/Vinnitsa"],
-	
- 
-		["Kiev", "http://doba.ua/cities/Kiev"],
-	
- 
-		["Chernigov", "http://doba.ua/cities/Chernigov"],
-	
- 
-		["Sumy", "http://doba.ua/cities/Sumy"],
-	
- 
-		["Cherkassy", "http://doba.ua/cities/Cherkassy"],
-	
- 
-		["Kirovograd", "http://doba.ua/cities/Kirovograd"],
-	
- 
-		["Odessa", "http://doba.ua/cities/Odessa"],
-	
- 
-		["Nikolaev", "http://doba.ua/cities/Nikolaev"],
-	
- 
-		["Kherson", "http://doba.ua/cities/Kherson"],
-	
- 
-		["Simferopol", "http://doba.ua/cities/Simferopol"],
-	
- 
-		["Poltava", "http://doba.ua/cities/Poltava"],
-	
- 
-		["Harkov", "http://doba.ua/cities/Harkov"],
-	
- 
-		["Dnepropetrovsk", "http://doba.ua/cities/Dnepropetrovsk"],
-	
- 
-		["Lugansk", "http://doba.ua/cities/Lugansk"],
-	
- 
-		["Donetsk", "http://doba.ua/cities/Donetsk"],
-	
- 
-		["Zaporozhye", "http://doba.ua/cities/Zaporozhye"],
-	
+		["Lvov", "Lvov"],
+		["Lutsk", "Lutsk"],
+		["Rovno", "Rovno"],
+		["Zhitomir", "Zhitomir"],
+		["Ivano-Frankovsk", "Ivano-Frankovsk"],
+		["Uzhgorod", "Uzhgorod"],
+		["Chernovtsy", "Chernovtsy"],
+		["Ternopol", "Ternopol"],
+		["Khmelnitskiy", "Khmelnitskiy"],
+		["Vinnitsa", "Vinnitsa"],
+		["Kiev", "Kiev"],
+ 		["Chernigov", "Chernigov"],
+		["Sumy", "Sumy"],
+		["Cherkassy", "Cherkassy"],
+		["Kirovograd", "Kirovograd"],
+ 		["Odessa", "Odessa"],
+		["Nikolaev", "Nikolaev"],
+		["Kherson", "Kherson"],
+		["Simferopol", "Simferopol"],
+		["Poltava", "Poltava"],
+		["Harkov", "Harkov"],
+		["Dnepropetrovsk", "Dnepropetrovsk"],
+	    ["Lugansk", "Lugansk"],
+		["Donetsk", "Donetsk"],
+ 		["Zaporozhye", "Zaporozhye"],
 	];
 	
 $(function(){
