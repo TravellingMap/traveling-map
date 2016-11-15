@@ -12,7 +12,7 @@ body {font-size:12px; font-family: Droid Sans, Tahoma, Geneva, sans-serif; color
 
 
 .wrap {float:left; width:100%; min-height:100%; _height:100%; background-image: url(../images/slide-1.jpg)}
-.wrapper {width:960px; margin:0 auto; position:relative; margin-bottom:137px;}
+.wrapper {width:960px; margin:0 auto; position:relative; margin-bottom:137px; margin-top: 7%;}
 
 
 .search-block {float:right; padding:14px 0 0;}
