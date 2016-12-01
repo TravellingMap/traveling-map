@@ -78,38 +78,39 @@ var poligonData = [
 		"717,385,715,382,720,378,720,373,713,372,712,365,705,365,710,361,707,355,716,355,716,352,720,352,717,348,722,346,721,342,716,342,708,336,705,337,701,333,698,334,693,321,687,319,677,319,675,321,670,318,666,320,664,317,667,314,661,311,661,304,658,307,656,303,650,304,642,300,635,304,613,303,609,307,603,307,603,312,608,315,603,319,604,321,608,325,608,329,610,332,609,345,609,346,600,346,591,344,586,349,576,351,581,365,582,366,585,364,590,364,593,384,608,395,604,397,604,402,599,406,600,408,604,408,605,414,613,422,620,422,621,433,625,435,632,424,634,425,633,431,637,431,648,420,653,416,659,408,671,403,678,403,682,407,695,395,704,395,705,396"
 	];
 
+
 var cityData = [
-		["Lvov", "Lvov"],
-		["Lutsk", "Lutsk"],
-		["Rovno", "Rovno"],
-		["Zhitomir", "Zhitomir"],
-		["Ivano-Frankovsk", "Ivano-Frankovsk"],
-		["Uzhgorod", "Uzhgorod"],
-		["Chernovtsy", "Chernovtsy"],
-		["Ternopol", "Ternopol"],
-		["Khmelnitskiy", "Khmelnitskiy"],
-		["Vinnitsa", "Vinnitsa"],
-		["Kiev", "Kiev"],
- 		["Chernigov", "Chernigov"],
-		["Sumy", "Sumy"],
-		["Cherkassy", "Cherkassy"],
-		["Kirovograd", "Kirovograd"],
- 		["Odessa", "Odessa"],
-		["Nikolaev", "Nikolaev"],
-		["Kherson", "Kherson"],
-		["Simferopol", "Simferopol"],
-		["Poltava", "Poltava"],
-		["Harkov", "Harkov"],
-		["Dnepropetrovsk", "Dnepropetrovsk"],
-	    ["Lugansk", "Lugansk"],
-		["Donetsk", "Donetsk"],
- 		["Zaporozhye", "Zaporozhye"],
+		["Lvov", "javascript:void(0)"],
+		["Lutsk", "javascript:void(0)"],
+		["Rovno", "javascript:void(0)"],
+		["Zhitomir", "javascript:void(0)"],
+		["Ivano-Frankovsk", "javascript:void(0)"],
+		["Uzhgorod", "javascript:void(0)"],
+		["Chernovtsy", "javascript:void(0)"],
+		["Ternopol", "javascript:void(0)"],
+		["Khmelnitskiy", "javascript:void(0)"],
+		["Vinnitsa", "javascript:void(0)"],
+		["Kiev", "javascript:void(0)"],
+ 		["Chernigov", "javascript:void(0)"],
+		["Sumy", "javascript:void(0)"],
+		["Cherkassy", "javascript:void(0)"],
+		["Kirovograd", "javascript:void(0)"],
+ 		["Odessa", "javascript:void(0)"],
+		["Nikolaev", "javascript:void(0)"],
+		["Kherson", "javascript:void(0)"],
+		["Simferopol", "javascript:void(0)"],
+		["Poltava", "javascript:void(0)"],
+		["Harkov", "javascript:void(0)"],
+		["Dnepropetrovsk", "javascript:void(0)"],
+	    ["Lugansk", "javascript:void(0)"],
+		["Donetsk", "javascript:void(0)"],
+ 		["Zaporozhye", "javascript:void(0)"],
 	];
 	
 $(function(){
 	for (var i=0;i<poligonData.length;i++){
 		var rel = cityData[i][0];
-		$('#map-ukraine1').append('<area shape="poly" alt="" coords='+poligonData[i]+' href="'+cityData[i][1]+'" rel="'+rel+'"  title="" />')
+		$('#map-ukraine1').append('<area shape="poly" alt="" coords='+poligonData[i]+' href="'+cityData[i][1]+'" rel="'+rel+'" onclick="getCity(1);"  title="" />')
 	}
 	$('#map-ukraine1').append('<area shape="default" nohref="nohref" alt="" />');
 	onMapLoaded()

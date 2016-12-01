@@ -1166,7 +1166,13 @@ h2.resp-accordion {
     height: 32px;
     margin: 0 auto;
 }
+.wthree_tab_grid{
+    
+        overflow-x: scroll;
+    height: 200px;
+}
 .wthree_tab_grid h4{
+
 	font-size:1em;
 	color:#212121;
 	text-transform:uppercase;
