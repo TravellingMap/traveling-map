@@ -62,7 +62,10 @@ a:focus, a:hover {
 
 	#popupBoxOnePosition{
         z-index: 9999;
-				top: 0; left: 0; position: fixed; width: 100%; height: 120%;
+				top: 0; left: 0; 
+        position: absolute;
+    width: 100%;
+       height: inherit;
 				background-color: rgba(0,0,0,0.7); display: none;
 			}
 			#popupBoxTwoPosition{
@@ -622,7 +625,7 @@ ul.social-icons li a:hover {
 }
 .signin-form h3 {
     font-size: 2em;
-    color: #fff;
+    color:black;
     font-weight: 700;
     margin-bottom: 1.5em;
 }
@@ -635,18 +638,26 @@ ul.social-icons li a:hover {
 .login-form {
     margin: 1em 0 2.5em;
 }
-.signin-form input[type="text"], .signin-form input[type="password"] {
-    width: 92%;
-    padding: 1em 1em 1em 1em;
-    font-size: 0.8em;
-    margin: 1em 0;
+.signin-form input[type="text"], .signin-form input[type="password"], .signin-form input[type="date"] {
+    font-family: century gothic;
+    width: 100%;
+    padding: 0.3em 0.3em 0.3em 0.3em;
+    font-size: 1.5em;
+    margin: 0.3em 0;
     outline: none;
-    color: #FFF;
+    color:darkblue;
     border: none;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid black;
 	letter-spacing: 1px;
 	text-align:center;
 }
+
+
+.signin-form input[type="date"] {
+    background: none;
+    display: block;
+}
+.
 .signin-form input[type="text"] {
     background: none;
     display: block;
@@ -659,6 +670,8 @@ ul.social-icons li a:hover {
 	color:black!important;
 }
 .signin-form input[type="submit"] {
+        font-family: century gothic;
+font-size: 1em;
     outline: none;
     padding: 0.9em 0;
     width: 100%;
@@ -695,6 +708,15 @@ ul.social-icons li a:hover {
 .tp {
     margin: 3.7em 0 0;
 }
+
+.signin-form input[type="file"] {
+    font-family: century gothic;
+    width: 100%;
+    font-size: 1em;
+   
+ 
+}
+.
 h5 {
     border-left: 1px dotted #7467b9;
     padding: 0.5em;
@@ -899,7 +921,7 @@ span.glyphicon.glyphicon-map-marker,span.glyphicon.glyphicon-envelope,span.glyph
 }
 .flowers {
     text-align: center;
-	background: #222;
+	background-color: cadetblue;
     height: 725px;
 }
 .flower-grid {
@@ -916,9 +938,9 @@ span.glyphicon.glyphicon-map-marker,span.glyphicon.glyphicon-envelope,span.glyph
     margin-top: .5em;
 }
 .flower-grid:hover {
-    background: #6CAB36;
+    background-color:cornflowerblue;
 }
-.wrap1 {float:left; width:100%; min-height:100%; height:850px; background-color: dimgray;}
+.wrap1 {float:left; width:100%; min-height:100%; height:850px;  background-image: url(../images/slide-1.jpg);}
 
 .main {
     width: 100%;
@@ -928,7 +950,6 @@ span.glyphicon.glyphicon-map-marker,span.glyphicon.glyphicon-envelope,span.glyph
 }
 
 .avatar{
-    margin-left: 35%;
     margin-bottom: 2%;
     width: 20%;
     height: 20%;
@@ -968,11 +989,12 @@ input[type="submit"],.wthree_footer_copy p a{
 	margin-bottom:1em;
 }
 .w3l_main_grid{
-	width:30%;
+	width:40%;
 	margin:0 auto;
 }
 .w3l_main_grid1{
-	background-color: deepskyblue;
+    border-radius: 10% 10% 0 0;
+	background-color:cadetblue;
     padding: 2em;
 }
 .w3l_main_grid1_left{
@@ -1031,6 +1053,8 @@ ul.nav1 li a:hover{
     color:#316EF1;
 }
 .w3l_main_grid1_sub h2{
+     
+    font-family: century gothic;
 	font-size:1.2em;
 	color:#fff;
 	margin:.5em 0 0;
@@ -1167,12 +1191,14 @@ h2.resp-accordion {
     margin: 0 auto;
 }
 .wthree_tab_grid{
-    
+    padding-left: 5%;
+    font-family: century gothic;
+    font-size: 1.4em;
         overflow-y: scroll;
     height: 200px;
 }
 .wthree_tab_grid h4{
-
+font-family: century gothic;
 	font-size:1em;
 	color:#212121;
 	text-transform:uppercase;
