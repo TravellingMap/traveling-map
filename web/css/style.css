@@ -66,13 +66,13 @@ a:focus, a:hover {
         position: absolute;
     width: 100%;
        height: inherit;
-				background-color: rgba(0,0,0,0.7); display: none;
+			 display: none;
 			}
 			#popupBoxTwoPosition{
                         z-index: 9999;
 
 				top: 0; left: 0; position: fixed; width: 100%; height: 120%;
-				background-color: rgba(0,0,0,0.7); display: none;
+				 display: none;
 			}
 			.popupBoxWrapper{
 				width: 550px; margin: 50px auto; text-align: left;
@@ -83,7 +83,7 @@ a:focus, a:hover {
 #popupBoxPosition{
         z-index: 9999;
 				top: 0; left: 0; position:absolute; width: 100%; height: 120%;
-				background-color: rgba(0,0,0,0.7); display: none;
+				 display: none;
 			}
 		nd-color: rgba(0,0,0,0.7); display: none;
 			}
@@ -618,6 +618,7 @@ ul.social-icons li a:hover {
     width: 100%;
 }
 .signin-form {
+    border-radius: 10%;
     background: url(../images/banner1.jpg)no-repeat 0px 0px;
     background-size: cover;
     padding: 2em 2em;
@@ -804,21 +805,14 @@ h5 {
   }
 }
 
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
+media (min-width: 1200px) {
   .container {
     width: 1170px;
   }
 }
-.glyphicon-heart-empty:before {
-  content: "\e143";
-}
 
-.col-md-4 {
+.col-mds {
+    font-family: century gothic;
   position: relative;
   min-height: 1px;
   padding-right: 15px;
@@ -829,23 +823,15 @@ position: relative;
   padding-left: 15px;
 }
 
-@media (min-width: 992px) {
-   .col-md-4{
-    float: left;
-  }
+
   
-  .col-md-4 {
-    width: 33.33333333%;
+  .col-mds {
+    width: 100%;
   }
     
 }
 
-@font-face {
-  font-family: 'Glyphicons Halflings';
 
-  src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
-}
 .glyphicon {
   position: relative;
   top: 1px;
@@ -858,19 +844,13 @@ position: relative;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.glyphicon-map-marker:before {
-  content: "\e062";
-}
-.glyphicon-envelope:before {
-  content: "\2709";
-}
 
 
 
 
 
 .crowe {
-    width:23%;
+    width:15%;
     position: absolute;
     z-index: 1000000;
     right: 0%;
@@ -883,16 +863,29 @@ position: relative;
     background: #fff;
     padding: 1em;
 }
+.img-responsive{
+    width: 100%;
+}
+
+
+
+.box-sizing(@boxmodel) {
+  -webkit-box-sizing: @boxmodel;
+     -moz-box-sizing: @boxmodel;
+          box-sizing: @boxmodel;
+}
+
+.glyphicon-globe:before {
+    content: "\e135";
+}
 .user1 {
     
-    float: left;
-    width: 30%;
-    margin-right: 2%;
+    width:100%;
+margin: auto;
 }
 .user2 ul li {
     
     list-style: none;
-	margin: .5em 0;
     font-size: .96em;
     color: #999;
 }
@@ -900,29 +893,40 @@ position: relative;
     color: #999;
     text-decoration: none;
 }
+
+
 .user2 h4 {
+    
     font-size: 1.3em;
     text-transform: capitalize;
-    font-family: 'Quattrocento Sans', sans-serif;
+    font-family: century gothic;
     font-weight: 600;
 }
 .user2 {
-    
-    float: right;
-    width: 66%;
+    font-family: century gothic;
+    margin: auto;
+    width: 100%;
 }
-span.glyphicon.glyphicon-map-marker,span.glyphicon.glyphicon-envelope,span.glyphicon.glyphicon-heart-empty {
-    font-size: .8em;
-    background: #222;
-    color: #fff;
-    padding: .6em .6em;
-    border-radius: 22px;
-	
-}
+ .glyphicon {
+  font-size: 1.5em;
+  position: relative;
+  top: 6px;
+  right: -7px;
+  display: inline-block;
+     margin-right: 0.5em;
+	font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+
 .flowers {
+    position: relative;
     text-align: center;
 	background-color: cadetblue;
-    height: 725px;
+    height:77%;
 }
 .flower-grid {
     padding: 1.5em 0;
