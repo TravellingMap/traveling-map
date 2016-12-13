@@ -22,7 +22,7 @@ body a:focus, a:hover {
 	text-decoration: none;
 }
 
-input[type="button"], input[type="submit"], .skills button.btn, .skills button.btn:hover {
+input[type="button"], input[type="submit"],input[type="button"] .skills button.btn, .skills button.btn:hover {
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
@@ -62,7 +62,7 @@ a:focus, a:hover {
 
 	#popupBoxOnePosition{
         z-index: 9999;
-				top: 0; left: 0; 
+				top: 0; left: 0;
         position: absolute;
     width: 100%;
        height: inherit;
@@ -87,8 +87,8 @@ a:focus, a:hover {
 			}
 		nd-color: rgba(0,0,0,0.7); display: none;
 			}
-			
-		
+
+
     width: 10% !important;
     position: relative;
 left: 45%;}
@@ -670,7 +670,7 @@ ul.social-icons li a:hover {
 ::-webkit-input-placeholder{
 	color:black!important;
 }
-.signin-form input[type="submit"] {
+.signin-form input[type="submit"] ,.signin-form input[type="button"]  {
         font-family: century gothic;
 font-size: 1em;
     outline: none;
@@ -685,9 +685,9 @@ font-size: 1em;
     background: #0b4379;
     box-shadow: 0px 2px 1px rgba(28, 28, 29, 0.42);
 	border-radius: 22px;
-	
+
 }
-.signin-form input[type="submit"]:hover {
+.signin-form input[type="submit"]:hover ,.signin-form input[type="button"]:hover {
     color: #fff;
     background: #002242;
     transition: .5s all;
@@ -714,8 +714,8 @@ font-size: 1em;
     font-family: century gothic;
     width: 100%;
     font-size: 1em;
-   
- 
+
+
 }
 .
 h5 {
@@ -824,11 +824,11 @@ position: relative;
 }
 
 
-  
+
   .col-mds {
     width: 100%;
   }
-    
+
 }
 
 
@@ -879,12 +879,12 @@ position: relative;
     content: "\e135";
 }
 .user1 {
-    
+
     width:100%;
 margin: auto;
 }
 .user2 ul li {
-    
+
     list-style: none;
     font-size: .96em;
     color: #999;
@@ -896,7 +896,7 @@ margin: auto;
 
 
 .user2 h4 {
-    
+
     font-size: 1.3em;
     text-transform: capitalize;
     font-family: century gothic;
@@ -957,7 +957,7 @@ margin: auto;
     margin-bottom: 2%;
     width: 20%;
     height: 20%;
-    
+
 }
 
 /*-- main --*/
@@ -976,7 +976,7 @@ margin: auto;
 .wthree_footer_copy p a:hover{
 	color:#fff;
 }
-input[type="submit"],.wthree_footer_copy p a{
+input[type="submit"] , input[type="button"],.wthree_footer_copy p a{
 	transition:.5s ease-in;
 	-webkit-transition:.5s ease-in;
 	-moz-transition:.5s ease-in;
@@ -1057,7 +1057,7 @@ ul.nav1 li a:hover{
     color:#316EF1;
 }
 .w3l_main_grid1_sub h2{
-     
+
     font-family: century gothic;
 	font-size:1.2em;
 	color:#fff;
@@ -1212,7 +1212,7 @@ font-family: century gothic;
 	font-weight:700;
 }
 #for_index{
-    
+
     width: 49.5%;
 }
 .wthree_tab_grid h4:after{
@@ -1469,7 +1469,7 @@ ul.wthree_tab_grid_list {
 	}
 }
 @media (max-width: 480px){
-	
+
 	.wthree_tab_grid_sub_left p {
 		font-size: 13px;
 	}
@@ -1493,7 +1493,7 @@ ul.wthree_tab_grid_list {
 	.w3l_main_grid {
 		width: 95%;
 	}
-	
+
 	.resp-tab-item {
 		width: 24.73%;
 	}
@@ -1595,19 +1595,19 @@ ul.wthree_tab_grid_list {
 }
 
 	.close_city{
-    
+
     width: 10% !important;
     position: relative;
 left: 87%;
 }
 .close_image{
-    
+
     width: 10% !important;
     position: relative;
 left: 45%;
 }
 
-    
+
 
 .tasks {
   margin: 50px auto;

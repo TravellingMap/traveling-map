@@ -4,7 +4,7 @@ $(document).ready(
                $("#register :input").serializeArray(),
         function(info){
             if (info == 'ok') {
-                window.location.href = "profile.html";
+                window.location.href = "profile.php";
             };
             $("#ack").empty();
             $("#ack").html(info);
