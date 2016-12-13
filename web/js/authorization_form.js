@@ -4,7 +4,7 @@ $(document).ready(
                $("#authorization :input").serializeArray(),
         function(info){
             if (info == 'ok') {
-                 window.location.href = "profile.html";
+                 window.location.href = "profile.php";
             };
             $("#ackv").empty();
             $("#ackv").html(info);

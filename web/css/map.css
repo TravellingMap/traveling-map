@@ -22,7 +22,8 @@ body {font-size:12px; font-family: Droid Sans, Tahoma, Geneva, sans-serif; color
 .ui-tabs-hide {display:none;}
 
 .map-ukraine {width:933px; height:593px; position:relative; background:url(../img/map-ukraine.png) no-repeat; margin:17px 0 0 27px;}
-.map-ukraine a {position:absolute; overflow:hidden; font-size:14px; color:#26a2da; text-decoration:underline;}
+.map-ukraine a {        font-family: century gothic; font-weight: 700;
+ position:absolute; overflow:hidden; font-size:14px; color:#26a2da; text-decoration:none;}
 .map-ukraine a:hover {text-decoration:none;}
 #map-ukraine1 area:hover {background:#000;}
 .map-ukraine-img {position:absolute; top:0; left:0; z-index:0}

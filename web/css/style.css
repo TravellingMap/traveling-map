@@ -22,7 +22,7 @@ body a:focus, a:hover {
 	text-decoration: none;
 }
 
-input[type="button"], input[type="submit"], .skills button.btn, .skills button.btn:hover {
+input[type="button"], input[type="submit"],input[type="button"] .skills button.btn, .skills button.btn:hover {
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
@@ -62,14 +62,17 @@ a:focus, a:hover {
 
 	#popupBoxOnePosition{
         z-index: 9999;
-				top: 0; left: 0; position: fixed; width: 100%; height: 120%;
-				background-color: rgba(0,0,0,0.7); display: none;
+				top: 0; left: 0;
+        position: absolute;
+    width: 100%;
+       height: inherit;
+			 display: none;
 			}
 			#popupBoxTwoPosition{
                         z-index: 9999;
 
 				top: 0; left: 0; position: fixed; width: 100%; height: 120%;
-				background-color: rgba(0,0,0,0.7); display: none;
+				 display: none;
 			}
 			.popupBoxWrapper{
 				width: 550px; margin: 50px auto; text-align: left;
@@ -80,12 +83,12 @@ a:focus, a:hover {
 #popupBoxPosition{
         z-index: 9999;
 				top: 0; left: 0; position:absolute; width: 100%; height: 120%;
-				background-color: rgba(0,0,0,0.7); display: none;
+				 display: none;
 			}
 		nd-color: rgba(0,0,0,0.7); display: none;
 			}
-			
-		
+
+
     width: 10% !important;
     position: relative;
 left: 45%;}
@@ -615,6 +618,7 @@ ul.social-icons li a:hover {
     width: 100%;
 }
 .signin-form {
+    border-radius: 10%;
     background: url(../images/banner1.jpg)no-repeat 0px 0px;
     background-size: cover;
     padding: 2em 2em;
@@ -622,7 +626,7 @@ ul.social-icons li a:hover {
 }
 .signin-form h3 {
     font-size: 2em;
-    color: #fff;
+    color:black;
     font-weight: 700;
     margin-bottom: 1.5em;
 }
@@ -635,18 +639,26 @@ ul.social-icons li a:hover {
 .login-form {
     margin: 1em 0 2.5em;
 }
-.signin-form input[type="text"], .signin-form input[type="password"] {
-    width: 92%;
-    padding: 1em 1em 1em 1em;
-    font-size: 0.8em;
-    margin: 1em 0;
+.signin-form input[type="text"], .signin-form input[type="password"], .signin-form input[type="date"] {
+    font-family: century gothic;
+    width: 100%;
+    padding: 0.3em 0.3em 0.3em 0.3em;
+    font-size: 1.5em;
+    margin: 0.3em 0;
     outline: none;
-    color: #FFF;
+    color:darkblue;
     border: none;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid black;
 	letter-spacing: 1px;
 	text-align:center;
 }
+
+
+.signin-form input[type="date"] {
+    background: none;
+    display: block;
+}
+.
 .signin-form input[type="text"] {
     background: none;
     display: block;
@@ -658,7 +670,9 @@ ul.social-icons li a:hover {
 ::-webkit-input-placeholder{
 	color:black!important;
 }
-.signin-form input[type="submit"] {
+.signin-form input[type="submit"] ,.signin-form input[type="button"]  {
+        font-family: century gothic;
+font-size: 1em;
     outline: none;
     padding: 0.9em 0;
     width: 100%;
@@ -671,9 +685,9 @@ ul.social-icons li a:hover {
     background: #0b4379;
     box-shadow: 0px 2px 1px rgba(28, 28, 29, 0.42);
 	border-radius: 22px;
-	
+
 }
-.signin-form input[type="submit"]:hover {
+.signin-form input[type="submit"]:hover ,.signin-form input[type="button"]:hover {
     color: #fff;
     background: #002242;
     transition: .5s all;
@@ -695,6 +709,15 @@ ul.social-icons li a:hover {
 .tp {
     margin: 3.7em 0 0;
 }
+
+.signin-form input[type="file"] {
+    font-family: century gothic;
+    width: 100%;
+    font-size: 1em;
+
+
+}
+.
 h5 {
     border-left: 1px dotted #7467b9;
     padding: 0.5em;
@@ -782,21 +805,14 @@ h5 {
   }
 }
 
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
+media (min-width: 1200px) {
   .container {
     width: 1170px;
   }
 }
-.glyphicon-heart-empty:before {
-  content: "\e143";
-}
 
-.col-md-4 {
+.col-mds {
+    font-family: century gothic;
   position: relative;
   min-height: 1px;
   padding-right: 15px;
@@ -807,23 +823,15 @@ position: relative;
   padding-left: 15px;
 }
 
-@media (min-width: 992px) {
-   .col-md-4{
-    float: left;
+
+
+  .col-mds {
+    width: 100%;
   }
-  
-  .col-md-4 {
-    width: 33.33333333%;
-  }
-    
+
 }
 
-@font-face {
-  font-family: 'Glyphicons Halflings';
 
-  src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
-}
 .glyphicon {
   position: relative;
   top: 1px;
@@ -836,19 +844,13 @@ position: relative;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.glyphicon-map-marker:before {
-  content: "\e062";
-}
-.glyphicon-envelope:before {
-  content: "\2709";
-}
 
 
 
 
 
 .crowe {
-    width:23%;
+    width:15%;
     position: absolute;
     z-index: 1000000;
     right: 0%;
@@ -861,16 +863,29 @@ position: relative;
     background: #fff;
     padding: 1em;
 }
+.img-responsive{
+    width: 100%;
+}
+
+
+
+.box-sizing(@boxmodel) {
+  -webkit-box-sizing: @boxmodel;
+     -moz-box-sizing: @boxmodel;
+          box-sizing: @boxmodel;
+}
+
+.glyphicon-globe:before {
+    content: "\e135";
+}
 .user1 {
-    
-    float: left;
-    width: 30%;
-    margin-right: 2%;
+
+    width:100%;
+margin: auto;
 }
 .user2 ul li {
-    
+
     list-style: none;
-	margin: .5em 0;
     font-size: .96em;
     color: #999;
 }
@@ -878,29 +893,40 @@ position: relative;
     color: #999;
     text-decoration: none;
 }
+
+
 .user2 h4 {
+
     font-size: 1.3em;
     text-transform: capitalize;
-    font-family: 'Quattrocento Sans', sans-serif;
+    font-family: century gothic;
     font-weight: 600;
 }
 .user2 {
-    
-    float: right;
-    width: 66%;
+    font-family: century gothic;
+    margin: auto;
+    width: 100%;
 }
-span.glyphicon.glyphicon-map-marker,span.glyphicon.glyphicon-envelope,span.glyphicon.glyphicon-heart-empty {
-    font-size: .8em;
-    background: #222;
-    color: #fff;
-    padding: .6em .6em;
-    border-radius: 22px;
-	
-}
+ .glyphicon {
+  font-size: 1.5em;
+  position: relative;
+  top: 6px;
+  right: -7px;
+  display: inline-block;
+     margin-right: 0.5em;
+	font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+
 .flowers {
+    position: relative;
     text-align: center;
-	background: #222;
-    height: 725px;
+	background-color: cadetblue;
+    height:77%;
 }
 .flower-grid {
     padding: 1.5em 0;
@@ -916,9 +942,9 @@ span.glyphicon.glyphicon-map-marker,span.glyphicon.glyphicon-envelope,span.glyph
     margin-top: .5em;
 }
 .flower-grid:hover {
-    background: #6CAB36;
+    background-color:cornflowerblue;
 }
-.wrap1 {float:left; width:100%; min-height:100%; height:850px; background-color: dimgray;}
+.wrap1 {float:left; width:100%; min-height:100%; height:850px;  background-image: url(../images/slide-1.jpg);}
 
 .main {
     width: 100%;
@@ -928,11 +954,10 @@ span.glyphicon.glyphicon-map-marker,span.glyphicon.glyphicon-envelope,span.glyph
 }
 
 .avatar{
-    margin-left: 35%;
     margin-bottom: 2%;
     width: 20%;
     height: 20%;
-    
+
 }
 
 /*-- main --*/
@@ -951,7 +976,7 @@ span.glyphicon.glyphicon-map-marker,span.glyphicon.glyphicon-envelope,span.glyph
 .wthree_footer_copy p a:hover{
 	color:#fff;
 }
-input[type="submit"],.wthree_footer_copy p a{
+input[type="submit"] , input[type="button"],.wthree_footer_copy p a{
 	transition:.5s ease-in;
 	-webkit-transition:.5s ease-in;
 	-moz-transition:.5s ease-in;
@@ -968,11 +993,12 @@ input[type="submit"],.wthree_footer_copy p a{
 	margin-bottom:1em;
 }
 .w3l_main_grid{
-	width:30%;
+	width:40%;
 	margin:0 auto;
 }
 .w3l_main_grid1{
-	background-color: deepskyblue;
+    border-radius: 10% 10% 0 0;
+	background-color:cadetblue;
     padding: 2em;
 }
 .w3l_main_grid1_left{
@@ -1031,6 +1057,8 @@ ul.nav1 li a:hover{
     color:#316EF1;
 }
 .w3l_main_grid1_sub h2{
+
+    font-family: century gothic;
 	font-size:1.2em;
 	color:#fff;
 	margin:.5em 0 0;
@@ -1166,7 +1194,15 @@ h2.resp-accordion {
     height: 32px;
     margin: 0 auto;
 }
+.wthree_tab_grid{
+    padding-left: 5%;
+    font-family: century gothic;
+    font-size: 1.4em;
+        overflow-y: scroll;
+    height: 200px;
+}
 .wthree_tab_grid h4{
+font-family: century gothic;
 	font-size:1em;
 	color:#212121;
 	text-transform:uppercase;
@@ -1174,6 +1210,10 @@ h2.resp-accordion {
 	margin-bottom:1em;
 	position:relative;
 	font-weight:700;
+}
+#for_index{
+
+    width: 49.5%;
 }
 .wthree_tab_grid h4:after{
 	content: '';
@@ -1429,7 +1469,7 @@ ul.wthree_tab_grid_list {
 	}
 }
 @media (max-width: 480px){
-	
+
 	.wthree_tab_grid_sub_left p {
 		font-size: 13px;
 	}
@@ -1453,7 +1493,7 @@ ul.wthree_tab_grid_list {
 	.w3l_main_grid {
 		width: 95%;
 	}
-	
+
 	.resp-tab-item {
 		width: 24.73%;
 	}
@@ -1555,19 +1595,19 @@ ul.wthree_tab_grid_list {
 }
 
 	.close_city{
-    
+
     width: 10% !important;
     position: relative;
 left: 87%;
 }
 .close_image{
-    
+
     width: 10% !important;
     position: relative;
 left: 45%;
 }
 
-    
+
 
 .tasks {
   margin: 50px auto;
@@ -1630,6 +1670,16 @@ left: 45%;
   line-height: 24px;
   padding: 12px 15px;
   cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.tasks-list-item1 {
+  display: block;
+  line-height: 24px;
+  padding: 12px 15px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
